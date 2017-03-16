@@ -52,17 +52,17 @@ function draw()
 	 x--;
 	 if(keyIsDown(RIGHT_ARROW))
 	 x++;
-	 fill(30,90,180);
-  isaac=ellipse(x,y,50,50);
-  fill(120);
-  ellipse(x-9,y-9,10,10);
-  ellipse(x+9,y-9,10,10);
-  line(x-10,y+8,x+10,y+8);
-  fill(90,180,80)
-  for(var i=0;i<tear.length;i++)
-  {
-  	tear[i].move();
-  	tear[i].display();
-  }
+	 fill(216, 213, 162);
+  	 isaac=ellipse(x,y,50,50);
+  	 fill(120);
+  	 ellipse(x-9,y-9,10,10);
+ 	 ellipse(x+9,y-9,10,10);
+ 	 line(x-10,y+8,x+10,y+8);
+ 	 fill(90,180,80)
+ 	 for(var i=0;i<tear.length;i++)
+ 	 {
+ 	 	tear[i].move();
+ 	 	tear[i].display();
+ 	 }
   
 }
